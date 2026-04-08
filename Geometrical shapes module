@@ -1,0 +1,12 @@
+size = input().split()
+values = input().split()
+rows = int(size[0])
+columns = int(size[1])
+matrix = [[0] * columns for_in range (rows)]
+index = 0
+for r in range (rows):
+for c in range (columns):
+matrix[r][c] = values[index]
+index += 1
+for row in matrix:
+print(" ".join(rows))
